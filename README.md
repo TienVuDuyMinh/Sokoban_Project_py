@@ -16,7 +16,7 @@ Dự án được xây dựng với cấu trúc gồm 4 thành phần chính:
 - **Thư viện**: NumPy, Matplotlib, OpenAI Gym, v.v.
 
 ## Báo cáo và Slide
-- [Báo cáo chi tiết](https://drive.google.com/file/d/1T2KnVIqyXq76WS9YQc10MBfidlIxPJyt/view?rtpof=true&sd=true)
+- [Báo cáo chi tiết](overleaf.com/project/67138cf223076647ac355df0)
 - [Slide trình bày](https://docs.google.com/presentation/d/1sk61wMKv1ldaa-EuibBePA_RFSuo7brf/edit?usp=sharing&ouid=102312488798806032848&rtpof=true&sd=true)
 
 ## Hướng dẫn sử dụng
