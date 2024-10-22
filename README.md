@@ -25,8 +25,10 @@ The algorithms were tested across multiple Sokoban maps, and the results show th
 - **SARSA** outperformed Q-learning and Monte Carlo in more complex environments due to its on-policy nature.
 - **Q-learning** performed well on simpler maps but struggled with increased complexity.
 - **Monte Carlo** showed slower convergence due to its dependence on complete episodes.
-
-More detailed results and comparisons can be found in the [Report](#report-and-slides) section.
+- 
+## Report and Slide
+- [Report](https://drive.google.com/file/d/1T2KnVIqyXq76WS9YQc10MBfidlIxPJyt/view?rtpof=true&sd=true)
+- [Slide](https://docs.google.com/presentation/d/1sk61wMKv1ldaa-EuibBePA_RFSuo7brf/edit?usp=sharing&ouid=102312488798806032848&rtpof=true&sd=true)
 
 ## How to Run the Code
 
