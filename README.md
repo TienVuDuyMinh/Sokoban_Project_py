@@ -27,8 +27,8 @@ The algorithms were tested across multiple Sokoban maps, and the results show th
 - **Monte Carlo** showed slower convergence due to its dependence on complete episodes.
 - 
 ## Report and Slide
-- [Report](https://drive.google.com/file/d/1T2KnVIqyXq76WS9YQc10MBfidlIxPJyt/view?rtpof=true&sd=true)
-- [Slide](https://docs.google.com/presentation/d/1sk61wMKv1ldaa-EuibBePA_RFSuo7brf/edit?usp=sharing&ouid=102312488798806032848&rtpof=true&sd=true)
+- [Report](https://www.overleaf.com/project/67138cf223076647ac355df0)
+- [Slide](https://docs.google.com/presentation/d/1d8rmVS76A6P2RxxKpUcQwt28pc14M2Ry/edit#slide=id.p1)
 
 ## How to Run the Code
 
