@@ -7,7 +7,7 @@ This project applies several reinforcement learning (RL) algorithms, including Q
 - [Algorithms Implemented](#algorithms-implemented)
 - [Results](#results)
 - [How to Run the Code](#how-to-run-the-code)
-- [Report and Slides](#report-and-slides)
+- [Report, Slide and Presentation](#Report,-Slide-and-Presentation)
 - [Future Work](#future-work)
 - [References](#references)
 
@@ -26,9 +26,10 @@ The algorithms were tested across multiple Sokoban maps, and the results show th
 - **Q-learning** performed well on simpler maps but struggled with increased complexity.
 - **Monte Carlo** showed slower convergence due to its dependence on complete episodes.
 - 
-## Report and Slide
+## Report, Slide and Presentation
 - [Report](https://www.overleaf.com/project/67138cf223076647ac355df0)
 - [Slide](https://docs.google.com/presentation/d/1d8rmVS76A6P2RxxKpUcQwt28pc14M2Ry/edit#slide=id.p1)
+- [Presentation](https://youtu.be/Usfki-qBP5Y)
 
 ## How to Run the Code
 
