@@ -1,25 +1,36 @@
-# Sokoban_Project_py
-# Sokoban Reinforcement Learning Project
+# Training Sokoban Using Reinforcement Learning Algorithms
 
-## Giới thiệu
-Dự án này triển khai trò chơi Sokoban sử dụng các thuật toán học tăng cường (Reinforcement Learning) bao gồm Q-Learning, Monte Carlo và SARSA. Mục tiêu của dự án là tạo ra một agent có thể giải quyết các màn chơi Sokoban với hiệu quả cao thông qua việc học hỏi từ môi trường.
+This project applies several reinforcement learning (RL) algorithms, including Q-learning, SARSA, and Monte Carlo, to train an agent to solve Sokoban puzzles. The goal is to optimize the agent's performance in pushing boxes to designated target positions across maps of varying complexity. Each algorithm is tested on different environments, and the results are compared to evaluate the strengths and weaknesses of each approach.
 
-Dự án được xây dựng với cấu trúc gồm 4 thành phần chính:
-1. **Environment**: Mô phỏng môi trường trò chơi Sokoban.
-2. **RL_algorithms**: Chứa các thuật toán học tăng cường để huấn luyện agent.
-3. **Training**: Huấn luyện agent sử dụng các thuật toán được triển khai và hiển thị kết quả sau quá trình training.
+## Table of Contents
+- [Project Description](#project-description)
+- [Algorithms Implemented](#algorithms-implemented)
+- [Results](#results)
+- [How to Run the Code](#how-to-run-the-code)
+- [Report and Slides](#report-and-slides)
+- [Future Work](#future-work)
+- [References](#references)
 
-## Nội dung chi tiết
-- **Mã nguồn**: Mã nguồn của dự án được chia thành nhiều file và thư mục để dễ dàng quản lý và phát triển.
-- **Mục tiêu**: Tạo ra một agent có khả năng tự động giải quyết các màn chơi Sokoban với độ chính xác cao nhất.
-- **Ngôn ngữ sử dụng**: Python
-- **Thư viện**: NumPy, Matplotlib, OpenAI Gym, v.v.
+## Project Description
 
-## Báo cáo và Slide
-- [Báo cáo chi tiết](overleaf.com/project/67138cf223076647ac355df0)
-- [Slide trình bày](https://docs.google.com/presentation/d/1d8rmVS76A6P2RxxKpUcQwt28pc14M2Ry/edit?usp=sharing&ouid=102312488798806032848&rtpof=true&sd=true)
+Sokoban is a classic puzzle game where the player (agent) must push boxes (objects) to specific target locations. The challenge of Sokoban lies in the constraints, such as limited movement options and the need to minimize the number of steps to solve each map. This project implements three RL algorithms to teach the agent how to solve Sokoban efficiently.
 
-## Hướng dẫn sử dụng
-1. **Clone repository**:
+## Algorithms Implemented
+- **Q-learning**: An off-policy RL algorithm that learns the optimal action-value function to maximize the expected reward.
+- **SARSA**: An on-policy algorithm where the agent updates the value of the action it actually took, focusing more on the agent's current policy.
+- **Monte Carlo**: A method based on averaging rewards from multiple episodes to evaluate the expected return for state-action pairs.
+
+## Results
+The algorithms were tested across multiple Sokoban maps, and the results show that:
+- **SARSA** outperformed Q-learning and Monte Carlo in more complex environments due to its on-policy nature.
+- **Q-learning** performed well on simpler maps but struggled with increased complexity.
+- **Monte Carlo** showed slower convergence due to its dependence on complete episodes.
+
+More detailed results and comparisons can be found in the [Report](#report-and-slides) section.
+
+## How to Run the Code
+
+To run the code, follow these steps:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/TienVuDuyMinh/Sokoban__RL_Project_py.git
+   git clone https://github.com/yourusername/sokoban-rl.git
